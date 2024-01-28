@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"rel="stylesheet"/>
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="main">
+        
+        <div class="searcharea">
+        
+            <!-- <i class="ri-map-pin-line" id="locationpin"></i> -->
+            
+            <form id="searchForm">
+
+            <input type="text" placeholder="Enter Your Location">
+            
+            <button type="submit" class="searchbtn">
+                <i class="ri-search-line"></i>
+            </button>
+
+            </form>
+        
+        </div>
+
+        <div class="locationerror">
+
+            <img src="images/error.png">
+
+            <h2>Location not found :(</h2>
+
+        </div>
+
+        <div class="weatherinfo">
+
+            <img src="">
+
+            <h2 class="tempinfo"></h2>
+
+            <h2 class="dayinfo"></h2>
+
+        </div>
+
+        <div class="weatherinfo2">
+
+            <div class="humidity">
+
+                <i class="ri-mist-fill"></i>
+
+                <div class="humidityinfo">
+
+                    <span></span>
+                    <h2>Humidity</h2>
+
+                </div>
+
+            </div>
+
+            <div class="wind">
+
+                <i class="ri-windy-fill"></i>
+
+                <div class="windinfo">
+
+                    <span></span>
+                    <h2>Wind Speed</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- <script src="index.js"></script> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
