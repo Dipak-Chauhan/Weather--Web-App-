@@ -48,9 +48,6 @@ body{
     transition: 0.5s ease;
 }
 
-/* .searcharea input:hover{
-    width: 85%;
-} */
 .searcharea input:focus{
     width: 85%;
 }
