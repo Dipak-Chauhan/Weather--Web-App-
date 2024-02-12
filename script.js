@@ -6,10 +6,9 @@ const locationerror = document.querySelector('.locationerror');
 
 
 document.getElementById('searchForm').addEventListener('submit', function(event) {
-    // Prevent the form from being submitted to a server
+
     event.preventDefault();
 
-    // Perform the button click action
     search.click();
 });
 
